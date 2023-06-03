@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARTCODE SOLUTION</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <header>
+        <img src="Logo1.png" height="20%" width="20%">
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="#">Início</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Softwares</a>
+						<ul  class="submenu">
+							<li><a href="#"></a>código1</li>
+							<li><a href="#"></a>codigo2</li>
+							<li><a href="#"></a>codigo2</li>
+							<li><a href="#"></a>codigo4</li>
+							<li><a href="#"></a>codigo5</li>
+						</ul>
+					</li>
+					<li><a href="#">Contatos</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+<body>
+	<div class="container">
+		<h2>Código do Software</h2>
+		<p>medida = float(input('Digite uma distância em metros: '))
+# m metros
+cm = medida / 100
+# cm = centimetro
+mm = medida / 1000
+# mm = milimetros
+km = medida / 100
+# km = kilometro
+hm = medida * 10
+# hectometro
+dam = medida * 100
+#dm = decimetro
+dm = medida / 10
+#dm = decameto
+print('a medida de {} m coresponde a {:.2f} cm, {:.2f} mm,{:.0f} km, {:.2f} hm, , {:.2f} dam, , {:.2f} dm'.format(medida, cm, mm, km, hm, dam, dm))</p>
+	</div>
+
+
+	<div class="container">
+		<h3>Descrição do Software</h3>
+		<p>Conversor de unidades.
+		 Vamos agora explicar linha a linha o que o código faz:
+
+medida = float(input('Digite uma distância em metros: ')) Esta linha solicita que o usuário digite um valor de distância em metros, e armazena este valor na variável "medida". O valor digitado é convertido para um número real (float).
+
+cm = medida / 100 Esta linha calcula o valor correspondente em centímetros, dividindo o valor em metros por 100. O resultado é armazenado na variável "cm".
+
+mm = medida / 1000 Esta linha calcula o valor correspondente em milímetros, dividindo o valor em metros por 1000. O resultado é armazenado na variável "mm".
+
+km = medida / 1000 Esta linha calcula o valor correspondente em quilômetros, dividindo o valor em metros por 1000. O resultado é armazenado na variável "km".
+
+hm = medida * 10 Esta linha calcula o valor correspondente em hectômetros, multiplicando o valor em metros por 10. O resultado é armazenado na variável "hm".
+
+dam = medida * 100 Esta linha calcula o valor correspondente em decâmetros, multiplicando o valor em metros por 100. O resultado é armazenado na variável "dam".
+
+dm = medida / 10 Esta linha calcula o valor correspondente em decímetros, dividindo o valor em metros por 10. O resultado é armazenado na variável "dm".
+
+print('a medida de {} m corresponde a {:.2f} cm, {:.2f} mm,{:.0f} km, {:.2f} hm, , {:.2f} dam, , {:.2f} dm'.format(medida, cm, mm, km, hm, dam, dm)) Esta linha exibe os valores calculados em metros, centímetros, milímetros, quilômetros, hectômetros e decâmetros, usando a função "print". A função "format" é usada para formatar a saída, exibindo o valor da variável "medida" em metros e os outros valores calculados com duas casas decimais para os valores em centímetros, milímetros, hectômetros e decímetros, e sem casas decimais para o valor em quilômetros.</p>
+	</div>
+
+	<div class="container">
+		<h3>Informações do Programador</h3>
+		<p>Nome: Tiago de Oliveira
+		Estudante de Análise e Desenvolvimento de Sistemas na PUC-PR, aprendendo Python, HTML e CSS. Busco oportunidade como desenvolvedor júnior.</p>
+	</div>
+</body>
+<footer> <img src="Logo2.png"  height="15%" width="15%">
+
+    <div contextmenu="copyright">
+		<p>Copyright Startcode Solution 2019</p>
+    </div>
+</footer>
+</html>

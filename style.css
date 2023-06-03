@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200&display=swap'); 
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Lato';
+            background-image: linear-gradient(to bottom right, #011134,#255489);
+		}
+
+		header {
+			  background-color: #011134, #255489;
+	          color: #ffffff;
+	          padding: 10px;
+	          display: flex;
+	          justify-content: space-between;
+	          align-items: center;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color:linear-gradient(to bottom right, #011134, #255489);
+			text-align: right;
+			border-radius: 10px;
+		}
+		
+		nav ul li {
+			display: inline-block;
+		  }
+		  
+		  nav ul li a {
+			display: block;
+			padding: 10px 20px;
+			text-decoration: none;
+			color: #d8d8e0;
+		  }
+		  
+		  nav ul li a:hover {
+			background-color: #3d0eac;
+			color: #f5f2f2;
+		 }
+
+		.container {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			background-color: #f2f2f2;
+			width: 100%;
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.submenu {
+			display: none;
+			position: absolute;
+			background-color: #f2f2f2;
+			padding: 0;
+			z-index: 1;
+		  }
+		  
+		  .submenu li {
+			display: block;
+		  }
+		  
+		  .submenu li a {
+			padding: 10px 54px;
+			color: #333;
+		  }
+		  
+		  nav ul li:hover .submenu {
+			display: block;
+        } r:after #ddd 
+
+		.btn {
+			text-decoration: none;
+			color: #333;
+			padding: 10px;
+		}
+
+		.btn:hover {
+			border-bottom: 2px solid #80b4f0;
+		}
+
+		h1 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+
+		h2 {
+			font-size: 20px;
+			margin-top: 0;
+		}
+
+		h3 {
+			font-size: 18px;
+			margin-top: 0;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		footer{
+			background-color: #8aa8ca; 
+			 font-size: 0.9rem; 
+			 color: black; 
+			 text-align: center; 
+			 margin: 2px auto auto auto ; 
+			 padding: 1px 0px;
+		   } 
+		
+		   .copyright {
+			text-align: center;
+		   }
+		
+		   footer > img{
+			width: 150px;
+		   }
